@@ -1,0 +1,64 @@
+/* reset basicao */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+   }
+   /* Global Styles */
+   body {
+       background-color: black;
+       margin: 0;
+       padding: 0;
+       font-family: Arial, sans-serif;
+       color: white;
+       position: relative;
+     }
+     
+     /* Logo Styles */
+     .logo {
+       width: 250px;
+       margin-bottom: 20px
+     }
+     
+     /* Container with the background image */
+     .container {
+       background: url('https://investidorsardinha.r7.com/wp-content/uploads/2024/08/uniao-europeia-quais-sao-os-membros-e-os-objetivos.jpg') no-repeat center center/cover;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+     }
+     
+     /* Content div for text and button */
+     .content {
+       text-align: center;
+       background-color: rgba(0, 0, 0, 0.5);
+       padding: 30px 50px;
+       border-radius: 8px;
+       max-width: 600px;
+     }
+     
+     .content h2 {
+       margin-bottom: 20px;
+     }
+     
+     /* Button Styles */
+     button {
+       background-color: #ffffff;
+       border: none;
+       padding: 10px 20px;
+       font-size: 1.2em;
+       color: rgb(40, 52, 168);
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+     }
+     
+     button:hover {
+       background-color: #1ABC9C;
+     }
+     
+     /* Footer Styles */
+     footer {
+       text-align: center;
+       padding: 10px;
+     }
+     
